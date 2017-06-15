@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="JSCalc.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="input-wrapper">
+            <input id="input" type="text"> </input><br>
+        </div>
+
+        <button class="button printed">/</button>
+        <button class="button printed">*</button>
+        <button class="button printed">-</button>
+        <button class="button printed">+</button>
+        <br>
+        <button class="button printed">7</button>
+        <button class="button printed">8</button>
+        <button class="button printed">9</button>
+        <button class="button printed">.</button>
+
+        <br>
+        <button class="button printed">4</button>
+        <button class="button printed">5</button>
+        <button class="button printed">6</button>
+        <button class="button printed">(</button>
+
+        <br>
+        <button class="button printed">1</button>
+        <button class="button printed">2</button>
+        <button class="button printed">3</button>
+        <button class="button printed">)</button>
+        <br>
+        <button class="button backSpace"><-</button>
+        <button class="button refresh">c</button>
+        <button class="button double equalitySign">=</button>
+        <br>
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            Application.init();
+        })
+    </script>
+</body>
+
+</html>
